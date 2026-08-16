@@ -2,6 +2,7 @@ package com.gps.appvoos.api
 
 import okhttp3.OkHttpClient
 import okhttp3.Request
+import com.gps.appvoos.BuildConfig
 
 class FlightApi{
     private val client = OkHttpClient()
@@ -19,7 +20,7 @@ class FlightApi{
             )
             .get()
             .addHeader("x-rapidapi-key",
-                "RAPIDAPI_KEY"
+                BuildConfig.RAPIDAPI_KEY
             )
             .addHeader("x-rapidapi-host",
                 "google-flights4.p.rapidapi.com"
