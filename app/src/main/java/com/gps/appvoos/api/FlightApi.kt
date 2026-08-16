@@ -19,7 +19,7 @@ class FlightApi{
             )
             .get()
             .addHeader("x-rapidapi-key",
-                "998eb13b91msh5ed90f936399b6ep137985jsnfe7e313e9b82"
+                "RAPIDAPI_KEY"
             )
             .addHeader("x-rapidapi-host",
                 "google-flights4.p.rapidapi.com"
